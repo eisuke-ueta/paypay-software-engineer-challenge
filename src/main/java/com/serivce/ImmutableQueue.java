@@ -50,11 +50,6 @@ public final class ImmutableQueue<T> implements Queue<T> {
 		return r;
 	}
 
-	/**
-	 * Represents an empty queue. This is a singleton.
-	 * 
-	 * @param <T>
-	 */
 	private static final class EmptyQueue<T> implements Queue<T> {
 
 		@SuppressWarnings("rawtypes")
